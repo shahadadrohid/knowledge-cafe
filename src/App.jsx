@@ -20,7 +20,7 @@ function App() {
   return (
     <>
       <Header></Header>
-      <div className='md:flex max-w-6xl mx-auto'>
+      <div className='md:flex max-w-7xl mx-auto'>
         <Blogs handleRead={handleRead} handleBookmark={handleBookmark}></Blogs>
         <Bookmarks reading={reading} bookmarks={bookmarks}></Bookmarks>
       </div>
